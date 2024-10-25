@@ -1,0 +1,244 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Kalam", cursive;
+  color: #fff;
+}
+
+body {
+  background: #d291fa;
+}
+
+.container {
+  width: 1440px;
+  margin: 0 auto;
+}
+
+/* header start */
+
+.navbar {
+  height: 93px;
+  display: flex;
+  padding: 10px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar ul {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+.item a,
+.item {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  list-style: none;
+  color: white;
+
+  font-family: "Kalam", cursive;
+}
+
+.item:nth-child(4) {
+  width: 135px;
+  height: 34px;
+  top: 33px;
+  left: 1259px;
+  padding: 2px 25px 0px 25px;
+  gap: 0px;
+  border-radius: 15px;
+  border: 2px solid white;
+  opacity: 0px;
+}
+
+.item:nth-child(4):hover {
+  color: #d291fa;
+  background-color: #fff;
+}
+/* ==============================header end===========================  */
+
+/* ================================main start========================== */
+
+/* section{
+    height: 458px;
+    } */
+
+/* ==========sectiion1============= */
+.vrap {
+  height: 450px;
+  margin-top: 185px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  /* padding: 10px; */
+  align-items: center;
+  justify-content: center;
+}
+
+.small-title {
+  font-size: 30px;
+  color: white;
+}
+
+.title {
+  color: white;
+  font-size: 60px;
+}
+
+.vrap a {
+  width: 135px;
+  height: 34px;
+  top: 291px;
+  left: 645px;
+  text-decoration: none;
+  color: white;
+  padding: 2px 42px 0px 41px;
+  border-radius: 15px;
+  border: 2px solid white;
+  /* box-shadow: black 10px; */
+}
+
+.vrap a:hover {
+  color: #d291fa;
+  background-color: #fff;
+}
+
+/*==============section2================*/
+
+.about-wrap {
+  margin: 100px 0;
+  height: 750px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 50px;
+}
+.about-wrap h3 {
+  font-size: 30px;
+}
+.childeren-wrap {
+  gap: 100px;
+  justify-content: center;
+  display: flex;
+}
+.box {
+  width: 235px;
+  height: 334px;
+  border-radius: 30px;
+  opacity: 0px;
+  background-color: #fff;
+  box-shadow: 3px 3px 5px black;
+}
+
+.about-wrap a {
+  width: 250px;
+  height: 34px;
+  text-decoration: none;
+  /* top: 649px;
+      left: 604px; */
+  padding: 2px 83px 0px 82px;
+  border-radius: 15px;
+  border: 2px;
+  border: 2px solid white;
+}
+
+.about-wrap a:hover {
+  color: #d291fa;
+  background-color: #fff;
+}
+
+/*=============== section3 ==============*/
+
+.social-wrap {
+  height: 318px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 50px;
+}
+.social-wrap h3 {
+  font-size: 30px;
+}
+
+.social-wrap-child {
+  display: flex;
+  gap: 200px;
+}
+
+.card {
+  width: 426px;
+  height: 162px;
+  /* top: 24px;
+      left: 193px; */
+  gap: 30px;
+  padding: 35px 115px 27px 73px;
+  border-radius: 30px;
+  border: 1px solid white;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: space-between;
+  box-shadow: 3px 3px 5px black;
+}
+
+/* ============ section4 ============== */
+
+/* main start */
+.service-wrap {
+     padding: 100px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+  gap: 50px;
+}
+.s-w-child {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+button {
+  background: transparent;
+  border: none;
+}
+.service-wrap1{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     flex-direction: column;
+}
+
+footer{
+     margin-top: 100px;
+     border-top: 1px solid white;
+}
+.wrap1{
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+}
+.wrap2{
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+}
+.footer2{
+     border-right: 1px solid white;
+     padding: 10px;
+}
+
+.footer3{
+     padding: 10px;
+}
+
+.footer3 button{
+     border: 1px solid white;
+     border-radius: 15px;
+     padding: 10px;
+}
+
